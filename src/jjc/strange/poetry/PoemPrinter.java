@@ -2,6 +2,12 @@ package jjc.strange.poetry;
 
 import java.util.Random;
 
+/**
+ * This is a five line poem called ENDLESSNESS written by a woman named Jessica
+ * Jones.
+ * <p>
+ * I wanted to print the lines in a way that suggested the theme.
+ */
 public class PoemPrinter {
 	static public int LINES = 65;
 	static public int LOCK = 6;
