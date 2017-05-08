@@ -22,6 +22,7 @@ public class PumpkinPie {
 	Ingredient sugar = new Ingredient("Sugar", .5f, "cup");
 	Ingredient pieCrust = new Ingredient("Pie Crust", 1, "crust");
 
+	@SuppressWarnings("unused")
 	static public void main(String[] args) {
 		PumpkinPie pie = new PumpkinPie();
 	}
@@ -96,8 +97,7 @@ class Container {
 
 	public void bakeAtDegreesForMinutes(int degrees, int minutes) {}
 
-	public void bakeAtDegreesForMinutesUntilTexture(int degrees, int minutes,
-			Texture texture) {}
+	public void bakeAtDegreesForMinutesUntilTexture(int degrees, int minutes, Texture texture) {}
 
 	public Ingredient getContents() {
 		return new Ingredient(product, 1, product);
